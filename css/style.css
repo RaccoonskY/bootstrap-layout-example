@@ -98,3 +98,13 @@ header .nav-item a:hover::after{
     border-radius: 0;
 
 }
+
+.load-more{
+    padding: 1rem 2rem;
+    border-color: #626262;  
+    border-radius: 0;
+}
+
+.load-more span{
+    display: none;
+}
