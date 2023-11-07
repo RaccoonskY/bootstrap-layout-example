@@ -18,6 +18,14 @@ a:hover{
     color: #898377;
 }
 
+p{
+    line-height: 1.5rem;
+}
+h2,h3{
+    margin: 1rem 0;
+    font-size: 30px;
+}
+
 header .navbar-light{
     background-color: #fff;
 }
@@ -49,5 +57,24 @@ header .nav-item a:hover::after{
 }
 
 .slider{
-    margin-bottom: 50;
+    margin-bottom: 50px;
 }
+
+.post-category,
+.link-more{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color:#b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.post-title a{
+    text-decoration: none;
+    color:#626262;
+}
+
+.post-title a:hover{
+    text-decoration: underline;
+}
+
