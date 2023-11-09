@@ -154,9 +154,6 @@ footer{
     color: #000;
 }
 
-.footer-left{
-    margin-bottom: 10px;
-}
 
 .footer-left a{
     color: #000;
@@ -166,4 +163,54 @@ footer{
 .footer-right a{
     color: #626262;
     margin-left: 20px ;
+}
+
+@media only screen and (max-width:  1399px) {
+    .grid-posts .card-img-top{
+        max-height: 300px;
+    }
+}
+
+
+@media only screen and (max-width:  1199px) {
+    .grid-posts .card-img-top{
+        max-height: 250px;
+    }
+}
+
+@media only screen and (max-width:  991px) {
+    .grid-posts .card-img-top{
+        max-height: 189px;
+    }
+    header .nav-item{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:  767px) {
+    .grid-posts .card-img-top{
+        max-height: 100%;
+    }
+    .grid-posts{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .grid-posts .card{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-left{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .sign-up{
+        padding: 40px 0;
+    }
+    .grid-posts{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
 }
