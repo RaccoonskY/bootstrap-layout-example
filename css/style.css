@@ -12,10 +12,12 @@ img{
 
 a{
     color: #b4ad9e;
+    text-decoration: none;
 }
 
 a:hover{
     color: #898377;
+    
 }
 
 p{
@@ -144,4 +146,24 @@ header .nav-item a:hover::after{
     top: -5px;
     font-size: 25px;
 
+}
+
+footer{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    color: #000;
+}
+
+.footer-left{
+    margin-bottom: 10px;
+}
+
+.footer-left a{
+    color: #000;
+    margin-right: 20px;
+}
+
+.footer-right a{
+    color: #626262;
+    margin-left: 20px ;
 }
